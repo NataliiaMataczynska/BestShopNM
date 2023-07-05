@@ -1,0 +1,62 @@
+body {
+    box-sizing: border-box;
+}
+.header {
+    height: 90px;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    max-width: 1352px;
+    margin: 0 auto;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    background-color: white;
+}
+.header .container:before {
+    background-color: rgba( 0, 0, 0, 0.16);
+}
+
+.logo {
+    display: flex;
+}
+
+.logo-shop {
+    font-size: 32px;
+    text-align: left;
+    font-weight: 142;
+    color: rgba(2, 165, 227, 1);
+    margin-top: 16px;
+
+}
+
+.nav-list {
+    display: flex;
+}
+.nav-list-link {
+    text-decoration: none;
+    padding: 28px;
+    font-size: 11px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 1);
+}
+
+.nav-list-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav-list-link:after {
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background: blue;
+    transition: all;
+}
