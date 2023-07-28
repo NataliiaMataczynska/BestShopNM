@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Nunito+Sans:wght@400;600;700;900&family=Oswald:wght@400;700&family=Pacifico&family=Raleway:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Nunito+Sans:wght@400;600;700;900&family=Open+Sans:wght@300;400;700&family=Oswald:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Best Shop</title>
@@ -21,7 +21,7 @@
             <span class="logo-shop">BestShop</span>
         </div>
         <nav>
-            <ul class="nav-list">
+            <ul class="nav-list flex-center">
                 <li>
                     <a class="nav-list-link" href="#why-us">WHY US</a>
                 </li>
@@ -39,12 +39,12 @@
     </div>
 </header>
 
-<section class="shop">
-    <div class="container">
+<section class="shop flex-center">
+    <div class="container flex-center">
         <h1 class="shop-title">Sell More!</h1>
         <p class="shop-text">Open shop on our platform and increase your sales</p>
         <button class="button-shop">Open your shop</button>
-        <div class="shop-image">
+        <div class="shop-image flex-center">
             <img src="assets/Background.png" />
         </div>
     </div>
@@ -57,58 +57,63 @@
             <div class="statistics-sale">
                 <div class="statistics-circle">
                     <img class="statistics-sale-image" src="assets/Person.svg" />
-                    <h4 class="statistics-sale-price">100000+</h4>
-                    <p class="statistics-sale-text">daily entries</p>
                 </div>
+                <h4 class="statistics-sale-price">100000+</h4>
+                <p class="statistics-sale-text">daily entries</p>
             </div>
             <div class="statistics-sale">
                 <div class="statistics-circle">
                     <img class="statistics-sale-image" src="assets/Eye.svg" />
-                    <h4 class="statistics-sale-price">2000000+</h4>
-                    <p class="statistics-sale-text">seen products every day</p>
                 </div>
+                <h4 class="statistics-sale-price">2000000+</h4>
+                <p class="statistics-sale-text">seen products every day</p>
             </div>
             <div class="statistics-sale">
                 <div class="statistics-circle">
                     <img class="statistics-sale-image" src="assets/Catalog.svg" />
-                    <h4 class="statistics-sale-price">10000+</h4>
-                    <p class="statistics-sale-text">seen products every day</p>
                 </div>
+                <h4 class="statistics-sale-price">10000+</h4>
+                <p class="statistics-sale-text">seen products every day</p>
             </div>
         </div>
     </div>
 </section>
 
-<section class="benefits">
-    <div class="container">
-        <div class="benefits-container">
-            <h2 class="section-title">Be always first</h2>
-            <p class="benefits-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
-
-        <div class="benefits-container">
-            <div class="benefits-container-background">
+<section class="benefits flex-center">
+    <div class="container ">
+        <div class="benefits-section macbook">
+            <div class="benefits-container macbook">
+                <h2 class="section-title">Be always first</h2>
+                <p class="benefits-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="benefits-container background-macbook">
                 <img class="benefits-image" src="assets/Macbook.png"/>
             </div>
         </div>
-    </div>
 
+        <div class="benefits-section iPhone">
+            <div class="benefits-container benefits-background-circle background-iPhone">
+                <img class="benefits-image-iPhone" src="assets/iPhone.png"/>
+            </div>
+            <div class="benefits-container">
+                <h2 class="section-title">Your shop is where you are!</h2>
+                <p class="benefits-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+        </div>
+
+        <div class="benefits-section trumpet">
+            <div class="benefits-container">
+                <h2 class="section-title">Increase recognition your brand!</h2>
+                <p class="benefits-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="benefits-container background-trumpet">
+                <img class="benefits-image" src="assets/Trumpet.png"/>
+            </div>
+        </div>
+    </div>
 </section>
 
-<section class="benefits">
-    <div class="container">
-        <div class="benefits-container">
-            <img class="benefits-image" src="assets/iPhone.png"/>
-        </div>
-        <div class="benefits-container">
-            <h2 class="section-title">Your shop is where you are!</h2>
-            <p class="benefits-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
-        </div>
-    </div>
-</section>
-
-
-<section class="pricing">
+<section class="pricing flex-center">
     <div class="container">
         <h2 class="pricing-title">Pricing</h2>
         <div class="pricing-container">
@@ -116,26 +121,25 @@
                 <div class="pricing-basic">Basic</div>
                 <div class="pricing-price">$0</div>
                 <ul class="pricing-menu">
-                    <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Checkmark-1.svg" />100 MB HDD</li>
-                    <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Checkmark-1.svg" />1 Subdomain</li>
-                    <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Checkmark-1.svg" />2 E-mails</li>
+                    <li class="pricing-menu-all"><img class="pricing-menu-image check-image" src="assets/check.png" />100 MB HDD</li>
+                    <li class="pricing-menu-all"><img class="pricing-menu-image check-image" src="assets/check.png" />1 Subdomain</li>
+                    <li class="pricing-menu-all"><img class="pricing-menu-image check-image" src="assets/check.png" />2 E-mails</li>
                     <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Close.svg" />Two years license</li>
                     <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Close.svg" />Full support</li>
                 </ul>
                 <button class="pricing-button" type="submit">Begin</button>
             </div>
 
-
             <div class="pricing-container-professional">
                 <div class="pricing-professional">Professional</div>
                 <div class="pricing-price">$60</div>
                 <div class="pricing-menu-all">Limited offer</div>
                 <ul class="pricing-menu">
-                    <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Checkmark-1.svg" />12 GB HDD</li>
-                    <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Checkmark-1.svg" />5 Subdomains</li>
-                    <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Checkmark-1.svg" />20 E-mails</li>
-                    <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Checkmark-1.svg" />Two years license</li>
-                    <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Checkmark-1.svg" />Full support</li>
+                    <li class="pricing-menu-all"><img class="pricing-menu-image check-image" src="assets/check.png" />12 GB HDD</li>
+                    <li class="pricing-menu-all"><img class="pricing-menu-image check-image" src="assets/check.png" />5 Subdomains</li>
+                    <li class="pricing-menu-all"><img class="pricing-menu-image check-image" src="assets/check.png" />20 E-mails</li>
+                    <li class="pricing-menu-all"><img class="pricing-menu-image check-image" src="assets/check.png" />Two years license</li>
+                    <li class="pricing-menu-all"><img class="pricing-menu-image check-image" src="assets/check.png" />Full support</li>
                 </ul>
                 <button class="pricing-button" type="submit">Begin</button>
             </div>
@@ -145,11 +149,11 @@
                 <div class="pricing-price">$60</div>
                 <div class="pricing-menu-all">Limited offer</div>
                 <ul class="pricing-menu">
-                    <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Checkmark-1.svg" />12 GB HDD</li>
-                    <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Checkmark-1.svg" />5 Subdomains</li>
-                    <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Checkmark-1.svg" />20 E-mails</li>
-                    <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Checkmark-1.svg" />Two years license</li>
-                    <li class="pricing-menu-all"><img class="pricing-menu-image" src="assets/Checkmark-1.svg" />Full support</li>
+                    <li class="pricing-menu-all"><img class="pricing-menu-image check-image" src="assets/check.png" />12 GB HDD</li>
+                    <li class="pricing-menu-all"><img class="pricing-menu-image check-image" src="assets/check.png" />5 Subdomains</li>
+                    <li class="pricing-menu-all"><img class="pricing-menu-image check-image" src="assets/check.png" />20 E-mails</li>
+                    <li class="pricing-menu-all"><img class="pricing-menu-image check-image" src="assets/check.png" />Two years license</li>
+                    <li class="pricing-menu-all"><img class="pricing-menu-image check-image" src="assets/check.png" />Full support</li>
                 </ul>
                 <button class="pricing-button" type="submit">Begin</button>
             </div>
@@ -160,7 +164,7 @@
 
 <section class="contact">
     <div class="container">
-        <div class="contact-form-container">
+        <div class="contact-form-container flex-center">
            <div class="contact-form-container-section">
                <h2 class="section-title">Any questions?</h2>
                 <p>Leave your email address or call us!</p>
